@@ -1,0 +1,35 @@
+{
+  "repo_name": "attendance-crmt-development-notices",
+  "status": "blocked",
+  "provided_exports": {
+    "interfaces_or_endpoints": [
+      "Public development privacy notice: https://github.com/joselu103/attendance-crmt-development-notices/blob/main/privacy-policy.md",
+      "Public development terms of use: https://github.com/joselu103/attendance-crmt-development-notices/blob/main/terms-of-use.md",
+      "Public notices inventory and support entry point: https://github.com/joselu103/attendance-crmt-development-notices"
+    ],
+    "events": []
+  },
+  "dependencies_needed": {
+    "attendance-crmt": [
+      "Deployed non-production HTTPS /mcp endpoint implementing contract 1.2.0",
+      "Microsoft Entra API registration exposing attendance.access",
+      "Production read-only active-email uniqueness readiness check before production rollout"
+    ],
+    "attendance-teams-bot": [
+      "Approved delegated OBO consent and production certificate configuration",
+      "End-to-end verification that real attendance traffic remains gated until all prerequisites pass"
+    ],
+    "publication": [
+      "Confirmed organization-internal custom-app distribution channel",
+      "Approved monitored support/privacy contact",
+      "Required organizational legal, privacy, HR, and Teams administrator approvals",
+      "Explicit authorization to push the reviewed notice revisions before claiming the public URLs contain them"
+    ]
+  },
+  "open_issues_or_blockers": [
+    "Real Teams attendance traffic remains disabled until Entra, OBO, certificate, deployed HTTPS MCP, and end-to-end verification prerequisites are complete.",
+    "Production rollout remains blocked pending the authoritative SQL Server active-email uniqueness readiness check.",
+    "Notice publication readiness remains blocked until the distribution channel, monitored contact, and required organizational reviews are confirmed.",
+    "Reviewed local notice revisions are not publicly published until an authorized push is completed and anonymous URLs are re-verified."
+  ]
+}
