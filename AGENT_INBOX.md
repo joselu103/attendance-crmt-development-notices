@@ -1,5 +1,9 @@
 # Directive: NOTICES-STATE-001
 
+> **Status:** Completed historical directive. Do not re-execute it. Read
+> `AGENT_STATE.json` and wait for a newly assigned directive before changing
+> this repository.
+
 ## Main Objective
 Establish `attendance-crmt-development-notices` as a visible coordination participant and prepare the public documentation/notices required for future Attendance Teams bot publication, without claiming that the real attendance integration is enabled.
 
